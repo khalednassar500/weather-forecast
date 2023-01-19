@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>weather conditions</title>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' href='./app.css'>
+  </head>
+  <body>
+    <div id='logo'>WEATHER <sub>app</sub></div>
+
+    <section id='user_input'>
+      <div class ="holder zip">
+        <input type="text" id="zip" placeholder="enter city name here" required>
+        <button id="generate" type = "submit"> Generate </button>
+      </div>
+      
+      <div id='loading'> <!-- animation util fetch data --> </div>
+    </section>
+
+    <section id='generate_data'> 
+      <!-- This content will fill in dynamically -->
+    </section>
+
+    <script src='./app.js'></script>
+  </body>
+</html>
