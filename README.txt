@@ -1,6 +1,7 @@
-# Weather app
+# Weather Forecast
 
-'Weather app' is a weather forecasting application.
+Weather Forecast is a web application that allows users to get the current weather forecast for any city. It provides the current temperature, humidity, wind speed, and a summary of the weather conditions for the current day, as well as a forecast for the next 7 days and the next 24 hours.
+
 
 ## Usage
 
